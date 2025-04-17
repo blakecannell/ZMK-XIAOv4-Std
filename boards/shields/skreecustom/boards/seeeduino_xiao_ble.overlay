@@ -16,6 +16,13 @@
     };
 };
  
+&spi1 {
+    status = "okay";
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi1_default>;
+    pinctrl-1 = <&spi1_sleep>;
+    pinctrl-names = "default", "sleep";
+};
 
 #include <dt-bindings/led/led.h>
  &pinctrl {
