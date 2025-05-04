@@ -39,7 +39,7 @@
         layer_1 {
             bindings = <
 &kp F1            &kp F2             &kp F3  &kp F4  &kp F5           &kp F6      &kp F7                        &kp F8          &kp F9                  &kp F10
-&kp TAB           &kp GRAVE          &trans  &trans  &kp BACKSLASH    &kp MINUS   &trans                        &kp UP_ARROW    &trans                  &kp PAGE_UP
+&kp TAB           &kp GRAVE          &trans  &trans  &kp BACKSLASH    &kp MINUS   &kp UNDERSCORE                &kp UP_ARROW    &trans                  &kp PAGE_UP
 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &kp SQT          &mkp LCLK   &ht_tap_pref HOME LEFT_ARROW  &kp DOWN_ARROW  &ht_tap_pref END RIGHT  &kp PAGE_DOWN
 &kp ESC           &kp LEFT_WIN       &trans  &trans  &kp EQUAL        &mkp MCLK   &trans                        &kp LESS_THAN   &kp GREATER_THAN        &trans
                                      &trans  &trans  &to 0            &kp DELETE  &kp RSHIFT                    &kp RIGHT_ALT
