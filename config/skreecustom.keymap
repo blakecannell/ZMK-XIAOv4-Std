@@ -21,6 +21,15 @@
             flavor = "tap-preferred";
             tapping-term-ms = <100>;
         };
+
+        alt_shift: alt_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ALT_SHIFT";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT>, <&kp RS(RIGHT_ALT)>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -42,7 +51,7 @@
 &kp TAB           &kp GRAVE          &trans  &trans  &kp BACKSLASH    &kp MINUS   &kp UNDERSCORE                &kp UP_ARROW    &trans                  &kp PAGE_UP
 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &kp SQT          &mkp LCLK   &ht_tap_pref HOME LEFT_ARROW  &kp DOWN_ARROW  &ht_tap_pref END RIGHT  &kp PAGE_DOWN
 &kp ESC           &kp LEFT_CONTROL   &trans  &trans  &kp EQUAL        &mkp MCLK   &trans                        &kp LESS_THAN   &kp GREATER_THAN        &trans
-                                     &trans  &trans  &to 0            &kp DELETE  &kp RSHIFT                    &kp RIGHT_ALT
+                                     &trans  &trans  &to 0            &kp DELETE  &kp RSHIFT                    &alt_shift
             >;
         };
 
