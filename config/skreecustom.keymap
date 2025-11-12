@@ -87,11 +87,11 @@
 
         layer_5 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &to 0    &kp F6      &kp F7                        &kp F8          &kp F9                  &kp F10
-&trans  &trans  &trans  &trans  &kp T    &kp MINUS   &kp UNDERSCORE                &kp UP_ARROW    &trans                  &kp PAGE_UP
-&trans  &trans  &trans  &trans  &kp G    &mkp LCLK   &ht_tap_pref HOME LEFT_ARROW  &kp DOWN_ARROW  &ht_tap_pref END RIGHT  &kp PAGE_DOWN
-&trans  &trans  &trans  &trans  &kp B    &mkp MCLK   &trans                        &kp LESS_THAN   &kp GREATER_THAN        &trans
-                &trans  &trans  &to 4    &kp DELETE  &kp RSHIFT                    &alt_shift
+&kp F1   &kp F2        &kp F3  &kp F4  &to 0    &kp F6      &kp F7                        &kp F8          &kp F9                  &kp F10
+&trans   &trans        &trans  &trans  &kp T    &kp MINUS   &kp UNDERSCORE                &kp UP_ARROW    &trans                  &kp PAGE_UP
+&trans   &trans        &trans  &trans  &kp G    &mkp LCLK   &ht_tap_pref HOME LEFT_ARROW  &kp DOWN_ARROW  &ht_tap_pref END RIGHT  &kp PAGE_DOWN
+&kp ESC  &kp LEFT_ALT  &trans  &trans  &kp B    &mkp MCLK   &trans                        &kp LESS_THAN   &kp GREATER_THAN        &trans
+                       &trans  &trans  &to 4    &kp DELETE  &kp RSHIFT                    &alt_shift
             >;
         };
     };
